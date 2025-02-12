@@ -27,7 +27,7 @@ print("Enter an integer as the exponent: ",exponent)
 result = base_value ** exponent
 
 # Displaying the Math with fancy words for Exponents
-
+print()
 print(base_value,"raised to the power of",exponent,"is",result,"!!")
 
 # Start of the Addition and Subtraction part of the problem
@@ -41,9 +41,6 @@ print()
 starting_int = int(input("Enter a starting integer:"))
 add_int = int(input("Enter an integer to add: "))
 sub_int = int(input("Enter an integer to subtract: "))
-
-print("Enter an integer as the base value: ",base_value)
-print("Enter an integer as the exponent: ",exponent)
 
 # Doing the Math for Addition and subtraction
 add_Sub_result = starting_int + add_int - sub_int
