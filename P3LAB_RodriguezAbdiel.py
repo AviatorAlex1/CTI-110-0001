@@ -1,7 +1,7 @@
 #   Abdiel Rodriguez
 #   3 March 2025
 #   P3lab
-#   
+#   Create a program to give you the exact amount of change with a user given float, in this case relating to money.
 
 OG_money = float(input("Enter the amount of money as a float: $"))
 
@@ -70,5 +70,5 @@ if num_pennies > 0:
     else:
         print(f"{num_pennies} Pennies ")
 
-else:
+if OG_money <= 0.00:
     print("No Change.")
